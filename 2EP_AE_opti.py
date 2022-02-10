@@ -57,12 +57,6 @@ def two_EP_ae(params, ns):
     return fs
 
 
-'''Optimization routine, controlling what happens
-across each round. Let's keep the three rounds, but change the number of replicates,
-the maxiter argument, and fold argument each time. We'll need to create a list of values
-for each of these, that has three values within (to match three rounds).
-'''
-
 p_labels = "nu_ae,nu1,nu2,Tae,T1,T2,m12a,m21a,m12b,m21b"
 upper = [20,20,20,10,10,10,100,100,100,100]
 lower = [1e-3,1e-3,1e-3,1e-3,1e-3,1e-3,1e-5,1e-5,1e-5,1e-5]
