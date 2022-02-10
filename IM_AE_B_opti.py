@@ -75,12 +75,6 @@ def IM_ae_b(params, ns):
 
 
 
-'''You can also be very explicit about the optimization routine, controlling what happens
-across each round. Let's keep the three rounds, but change the number of replicates,
-the maxiter argument, and fold argument each time. We'll need to create a list of values
-for each of these, that has three values within (to match three rounds).
-'''
-
 p_labels = "nu_ae, nu1, nu2,s, Tae, T1, m12, m21"
 upper = [20,20,20,0.999,10,10,200,200]
 lower = [1e-3,1e-3,1e-3,1e-3,1e-3,1e-3,1e-5,1e-5]
