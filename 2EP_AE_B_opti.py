@@ -80,11 +80,7 @@ def two_EP_ae_b(params, ns):
     fs.integrate(nu_func, T2, dt_fac=0.01, m=numpy.array([[0, m12b], [m21b, 0]]))
     return fs
 
-'''
-across each round. Let's keep the three rounds, but change the number of replicates,
-the maxiter argument, and fold argument each time. We'll need to create a list of values
-for each of these, that has three values within (to match three rounds).
-'''
+
 
 p_labels = "nu_ae,nu1,nu2,s,Tae,T1,T2,m12a,m21a,m12b,m21b"
 upper = [20,20,20,0.999,10,10,10,100,100,100,100]
