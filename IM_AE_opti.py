@@ -15,7 +15,7 @@ pop_ids=[sys.argv[2],sys.argv[3]]
 #projection sizes, in ALLELES not individuals, arguments 4 and 5
 #projections=[int(sys.argv[4]),int(sys.argv[5])]
 
-'''
+
 '''
 Citations:
  If you use these scripts for your work, please cite the following publication:
