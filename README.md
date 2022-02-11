@@ -18,7 +18,11 @@ do
  python Script_moments_model_optimisation_from_SFS.py  -f indo-north_gbr.sfs  -x north_gbr -y indo -m IM -s True -r $i
 done
 
+Other relevant github repositories: 
 
+https://github.com/alanlm-speciation/moments_optimization
+https://github.com/dportik/dadi_pipeline
+https://github.com/Nopaoli/Demographic-Modelling
 
 Relevant citations: 
 
