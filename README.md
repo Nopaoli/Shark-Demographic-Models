@@ -3,7 +3,7 @@ This repository contains the codes necessary to replicate the *moments* analyses
 
 Cameron Walsh, Paolo Momigliano, Germain Boussarie, William Robbins, Lucas Bonnin, Cecile Fauvelot, Jeremy Kiszka, David Mouillot, Laurent Vigliola, and Stéphanie Manel (2022). Genomic insights into the historical and contemporary demographics of the grey reef shark. *Heredity* XXX:XXX-XXX DOI: XXX 
 
-The pipeline used for demographic analyses is built based on the pipeline for dadi optimization built by Portik et al (2017),  modified to work on *moments* by Momigliano et al (2021),  then by Alan le Moan (Le Moan et al 2021), and again modified by Paolo Momigliano for this manuscript. 
+The pipeline used for demographic analyses is built based on the *dadi* pipeline by Portik et al (2017),  modified to work on *moments* by Momigliano et al (2021),  then by Alan le Moan (Le Moan et al 2021), and again modified by Paolo Momigliano for this manuscript. 
 
 The files Model_2pop_folded.py and Model_2pop_unfolded.py contain the two population models to be used for folded and unfolded data, and are based on the models from Momigliano et al (2021). 
 
@@ -11,7 +11,7 @@ The files *Optimize_Functions.py* and *Summarize_Outputs.py* contain the scripts
 
 The Script_moments_model_optimisation_from_SFS.py can be used to run the entire optimization pipeline for each dataset and model. It's been modified from the script from Le Moan et al (2021). 
 
-An example command to run 10 indpedent optimizations for the IM model using the shark data from our paper is: 
+An example command to run 10 indepedent optimizations for the IM model using the shark data from our paper is: 
 
 for i in {1. .10}
 do
