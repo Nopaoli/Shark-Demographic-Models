@@ -7,7 +7,7 @@ The pipeline used for demographic analyses is built based on the pipeline for da
 
 The files Model_2pop_folded.py and Model_2pop_unfolded.py contain the two population models to be used for folded and unfolded data, and are based on the models from Momigliano et al (2021). 
 
-The files *Optimize_Functions.py* and *Summarize_Outputs.py* contain the scripts for the optmization procedure and for summarising the results. They were developed by Daniel Portik, (Portik et al, 2017) to work with *dadi*, and then modified by Momigliano et al (2021) to work with *moments*. 
+The files *Optimize_Functions.py* and *Summarize_Outputs.py* contain the scripts for the optmimization procedure and for summarising the results. They were developed by Daniel Portik, (Portik et al, 2017) to work with *dadi*, and then modified by Momigliano et al (2021) to work with *moments*. 
 
 The Script_moments_model_optimisation_from_SFS.py can be used to run the entire optimization pipeline for each dataset and model. It's been modified from the script from Le Moan et al (2021). 
 
